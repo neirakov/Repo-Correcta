@@ -42,12 +42,13 @@ git remote add origin https://github.com/fersp95/proba-repo
 > Sirve para conectar o repositorio local e o repositorio en liña.
 
 ```bash
-git push -u origin main
+git pull --all
 ```
 > Sirve para subir o contido do repositorio local ao repositorio en liña.
 
 ```bash
-git pull --all
+
+git push -u origin main
 ```
 > Sirve para baixar o contido do repositorio en liña ao repositorio local.
 
